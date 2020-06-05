@@ -19,7 +19,7 @@ set -e
 
 DEVICE=V530A
 VENDOR=vsmart
-INITIAL_COPYRIGHT_YEAR=2019
+INITIAL_COPYRIGHT_YEAR=2020
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
@@ -45,4 +45,3 @@ write_makefiles "${MY_DIR}/proprietary-files.txt" true
 
 # Finish
 write_footers
-

@@ -9,17 +9,17 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from Vsmart Active 3 device
+# Inherit from Vsmart Active 3 (V530A) device
 $(call inherit-product, device/vsmart/V530A/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_V530A
 PRODUCT_DEVICE := V530A
 PRODUCT_BRAND := vsmart
-PRODUCT_MODEL := Active 3
+PRODUCT_MODEL := V530A
 PRODUCT_MANUFACTURER := vsmart
 
 # Product characteristics
